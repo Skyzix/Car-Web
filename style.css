@@ -37,22 +37,22 @@ html{
     align-items: center;
     position: fixed;
     top: 0%;
-    right: 5%;
+    right: 2%;
 }
 
 .menu{
-    width: 8vw;
+    width: 7vw;
     height: 4vh;
     text-align: center;
     font-family: wow;
     font-size: 18px;
-    border: solid 1px white;
+    border: ridge 1px white;
     line-height: 4vh;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 
 .menu:hover{
-    font-size: 135%;
+    font-size: 130%;
     transform: 2s;
 }
 
@@ -93,6 +93,9 @@ html{
 
 .space-1{
     background-color: #252525;
+    width: 100vw;
+    height: 320vh;
+    justify-content: top;
 }
 
 .space-2{
@@ -112,10 +115,62 @@ h1{
 
 /* Dane */
 
+
+
+.text-parametry-3{
+    width: 55vw;
+    height: 28vh;
+    margin: auto;
+    border-top: 3px groove grey;
+    clear: both;
+}
+
+.img-2, .img-1{
+    margin: 1vw 1vh;
+    float: left;
+    width: 20vw;
+    height: 26vh;
+}
+
+.img-1{
+    float: left;
+}
+
+.img-2{
+    float: right;
+}
+
+.opis-1-1, .opis-1-2{
+    width: 30vw;
+    height: 26vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family:sans-serif;
+    float: left;
+}
+
+.opis-1-1{
+    float: right;
+}
+
+.opis-1-2{
+    float: left;
+}
+
 .parametry-1{
     background-color: #383838   ;
     width: 80vw;
-    height: 80vh;
+    height: 280vh;
+}
+
+.nothing{
+    background-color: #252525;
+    width: 100vw;
+    height: 20vh;
+    margin-top: 1.8rem;
+    margin-bottom: 2em;
 }
 
 .porshe-1{
@@ -210,8 +265,8 @@ td:nth-child(1){
 
 .kontakt-1{
     background-color: #413f3f;
-    width: 85vw;
-    height: 80vh;
+    width: 65vw;
+    height: 75vh;
 }
 
 .kontakt{
@@ -233,7 +288,7 @@ label{
 }
 
 .form {
-    margin:1rem auto;
+    margin: auto;
     font-family:sans-serif;
     width:35rem;
 }
