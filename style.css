@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: aliceblue;
+    font-family: wow;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.navigation{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    right: 5%;
+}
+
+.menu{
+    width: 8vw;
+    height: 4vh;
+    text-align: center;
+    font-family: wow;
+    font-size: 18px;
+    border: solid 1px white;
+    line-height: 4vh;
+    margin-left: 3vw;
+}
+
+.menu:hover{
+    font-size: 135%;
+    transform: 2s;
+}
+
+.start{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(image/buildings-1851246.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.model{
+        padding-left: 42vw;
+        padding-top:  90vh;
+}
+
+.writing-1, .writing-2{
+    width: 20vw;
+    height: 20vh;
+    font-size: 3rem;
+}
+
+.writing-1{
+    float: left;
+    margin-left: 10vw;
+    margin-top: 40vh;
+}
+
+.writing-2{
+    float: right;
+    margin-top: 60vh;
+    margin-right: 8vw;
+}
+
+
+.space-1, .space-2, .space-3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-1{
+    background-color: #252525;
+}
+
+.space-2{
+    background-color: #383838   ;
+}
+
+.space-3{
+    background-color: #6A6A6A;
+}
+
+.parametry-1{
+    background-color: #383838   ;
+    width: 80vw;
+    height: 80vh;
+}
+
+.porshe-1{
+    float: left;
+    background-image: url(image/porsche-model.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 30vh;
+    margin-left: 6vw;
+    margin-right: 4vw;
+    float: left;
+}
+
+.text-parametry-1{
+    text-align: center;
+    width: 40vw;
+    height: 30vh;
+    float: left;
+    margin-bottom: 4vh;
+}
+
+.text-parametry-2{
+    margin: auto;
+    padding-top: 2vh;;
+    text-align: center;
+    font-size: 1.8rem;
+    clear: both;
+    width: 50vw;
+    height: 30vh;
+    font-family: wow;
+    border-top: 2px solid grey;
+}
+
+td{
+    width: 25vw;
+    height: 4.5vh;
+}
+
+td:nth-child(1){
+    background-color: #252525;
+}
+
+
+.galeria-1{
+    background-color: #525252 ;
+    width: 85vw;
+    height: 80vh;
+}
+.galeria{
+    width: 96%;
+    height: 74%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.i-1{
+    margin-left: 3vw;
+}
+.galeria > img{
+    width: 24vw;
+    height: 26vh;
+}
+
+.galeria > img:hover{
+     position :relative;
+    -webkit-animation: mymove 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 1s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-animation-keyframes mymove{
+    from{width: 24vw;
+        height: 26vh;}
+    to {width: 28vw;
+        height: 30vh;}
+}
+
+@keyframes mymove{
+    from{width: 24vw;
+        height: 26vh;}
+    to {width: 29vw;
+        height: 31vh;}
+}
+
+h1{
+    margin-bottom: 3vh;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2vh;
+}
+
+footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: #211D1C;
+}
+
+@font-face{
+    font-family: wow;
+    src: url(font/varsity_regular.ttf);
+}
