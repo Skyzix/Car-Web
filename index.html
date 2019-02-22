@@ -4,63 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Jakub Tabor">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>ZSE | ARRINERA HUSSARYA</title>
 </head>
 <body>
-    <header id="main" class="container">
-
+     <!--- Header -->
+    <header id="Start" class="container-1">
         <div class="start">
-        <nav class="navigation">
-            <a href="#main"><div class="menu" >Main</div></a>
-            <a href="#opis"><div class="menu" >Opis</div></a>
-            <a href="#galeria"><div class="menu">Galeria</div></a>
-            <a href="#kontakt"><div class="menu">Kontakt</div></a>
-        </nav>
-        <div class="writing-1">"Bo prawdziwa przygoda...</div>
-        <div class="writing-2">...zaczyna sie z Porsche"</div>
-        <div class="model">Model: Porsche 911 Carrera 4 GTS</div>
+            <nav class="navigation">
+                <a href="#Start"><div class="menu" >Start</div></a>
+                <a href="#dane"><div class="menu" >Dane</div></a>
+                <a href="#galeria"><div class="menu">Galeria</div></a>
+                <a href="#kontakt"><div class="menu">Kontakt</div></a>
+            </nav>
+            <div class="writing-1">"Bo prawdziwa przygoda...</div>
+            <div class="writing-2">...zaczyna sie z Porsche"</div>
+            <div class="model">Model: Porsche 911 Carrera 4 GTS</div>
         </div>
 
     </header>
+    <!--- Dane -->
     <main>
-        <div class="space-1" id="opis">
+        <div class="space-1" id="dane">
             <div class="parametry-1">
-            <h1>Dane techniczne</h1>
-            <div class="porshe-1"></div>
+                <h1>Dane techniczne</h1>
+                <div class="porshe-1"></div>
                 <div class="text-parametry-1">
-                <table>
-                    <tr>
-                        <td>Typ auta</td>
-                        <td>Manual</td>
-                        <td>PDK</td>
-                    </tr>
-                    <tr>
-                        <td>Moc</td>
-                        <td>331 kW 6 500 obr./min</td>
-                        <td>331 kW (450 KM) przy 6 500 obr./min</td>
-                    </tr>
-                    <tr>
-                        <td>Przyspieszenie 0-100 km/h</td>
-                        <td>4,0 s</td>
-                        <td>3,6 s</td>
-                    </tr>
-                    <tr>
-                        <td>Prędkość maksymalna</td>
-                        <td>310 km/h</td>
-                        <td>308 km/h</td>
-                    </tr>
-                    <tr>
-                        <td>Zużycie paliwa (l/100km)</td>
-                        <td>9,5</td>
-                        <td>8,5</td>
-                    </tr>
-                    <tr>
-                        <td>Emisja CO2 (g/km)</td>
-                        <td>216</td>
-                        <td>192</td>
-                    </tr>
-                </table>
+                    <table>
+                        <tr>
+                            <td>Typ auta</td>
+                            <td>Manual</td>
+                            <td>PDK</td>
+                        </tr>
+                        <tr>
+                            <td>Moc</td>
+                            <td>331 kW 6 500 obr./min</td>
+                            <td>331 kW (450 KM) przy 6 500 obr./min</td>
+                        </tr>
+                        <tr>
+                            <td>Przyspieszenie 0-100 km/h</td>
+                            <td>4,0 s</td>
+                            <td>3,6 s</td>
+                        </tr>
+                        <tr>
+                            <td>Prędkość maksymalna</td>
+                            <td>310 km/h</td>
+                            <td>308 km/h</td>
+                        </tr>
+                        <tr>
+                            <td>Zużycie paliwa (l/100km)</td>
+                            <td>9,5</td>
+                            <td>8,5</td>
+                        </tr>
+                        <tr>
+                            <td>Emisja CO2 (g/km)</td>
+                            <td>216</td>
+                            <td>192</td>
+                        </tr>
+                    </table>
                 </div>
                 <div class="text-parametry-2">
                     Stworzone dla wyzszych celow <br>
@@ -68,29 +70,51 @@
                     przynosi wydajność z toru wyścigowego na drogi.
                 </div>
             </div>
-            </div>
         </div>
+        <!-- Galeria -->
         <div class="space-2" id="galeria">
-                <div class="galeria-1">
-                    <h1>Galeria</h1>
-                    <div class="galeria">
+            <div class="galeria-1">
+                <h1>Galeria</h1>
+                <div class="galeria">
                     <img class="img i-1" src="image/Galery/auto-3206940_1920.jpg">
                     <img class="img" src="image/Galery/maxresdefault.jpg">
                     <img class="img" src="image/Galery/porsche-911-c4-gts-001.jpg">
                     <img class="img i-1" src="image/Galery/porsche-911-carrera-4-gts-rear-cross-side-view.jpg">
                     <img class="img" src="image/Galery/porsche-911-carrera-image-2.jpg">
                     <img class="img" src="image/Galery/porsche_911_c4gts_01.jpg">
-                    </div>
+                </div>
             </div>
-
         </div>
         <div class="space-3" id="kontakt">
-            <h1>Kontakt</h1>
-
+            <div class="kontakt-1">
+                <h1>Kontakt</h1>
+                <div class="kontakt">
+                    <form class="form" method="post">
+                        <div class="form-row">
+                            <label>Imię*</label>
+                            <input type="text" name="Imię">
+                        </div>
+                        <div class="form-row">
+                            <label>Email*</label>
+                            <input type="email" name="Email">
+                        </div>
+                        <div class="form-row">
+                            <label>Wiadomość*</label>
+                            <textarea name="Wiadomość"></textarea>
+                        </div>
+                        <div class="form-row">
+                            <button type="submit" class="submit-btn">
+                                Wyślij
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </main>
+    <!-- footer -->
     <footer>
-
+            
     </footer>
 
 </body>

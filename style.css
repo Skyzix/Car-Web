@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    color: aliceblue;
+    color: rgb(212, 222, 231);
     font-family: wow;
 }
 
@@ -9,10 +9,24 @@ html{
     scroll-behavior: smooth;
 }
 
-.container{
+@font-face{
+    font-family: wow;
+    src: url(font/varsity_regular.ttf);
+}
+
+/* Header */
+
+.container-1{
     width: 100vw;
     height: 100vh;
+}
 
+.start{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(image/buildings-1851246.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .navigation{
@@ -42,23 +56,11 @@ html{
     transform: 2s;
 }
 
-.start{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(image/buildings-1851246.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.model{
-        padding-left: 42vw;
-        padding-top:  90vh;
-}
-
 .writing-1, .writing-2{
     width: 20vw;
     height: 20vh;
     font-size: 3rem;
+    font-family:sans-serif;
 }
 
 .writing-1{
@@ -73,6 +75,13 @@ html{
     margin-right: 8vw;
 }
 
+.model{
+        padding-left: 42vw;
+        padding-top:  90vh;
+}
+
+
+/* Main-space */
 
 .space-1, .space-2, .space-3{
     width: 100vw;
@@ -93,6 +102,15 @@ html{
 .space-3{
     background-color: #6A6A6A;
 }
+
+h1{
+    margin-bottom: 3vh;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2vh;
+}
+
+/* Dane */
 
 .parametry-1{
     background-color: #383838   ;
@@ -128,19 +146,21 @@ html{
     clear: both;
     width: 50vw;
     height: 30vh;
-    font-family: wow;
+    font-family:sans-serif;
     border-top: 2px solid grey;
 }
 
 td{
     width: 25vw;
     height: 4.5vh;
+    font-family:sans-serif;
 }
 
 td:nth-child(1){
     background-color: #252525;
 }
 
+/* Galeria */
 
 .galeria-1{
     background-color: #525252 ;
@@ -186,20 +206,80 @@ td:nth-child(1){
         height: 31vh;}
 }
 
-h1{
-    margin-bottom: 3vh;
-    text-align: center;
-    font-size: 3rem;
-    padding-top: 2vh;
+/* Kontakt */
+
+.kontakt-1{
+    background-color: #413f3f;
+    width: 85vw;
+    height: 80vh;
 }
+
+.kontakt{
+    width: 96%;
+    height: 74%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family:sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+label{
+    font-family:sans-serif;
+}
+
+.form {
+    margin:1rem auto;
+    font-family:sans-serif;
+    width:35rem;
+}
+.form .form-row {
+    margin-bottom:1rem;
+}
+
+.form input,
+.form textarea {
+    border-radius:0.2rem;
+    font-family:sans-serif;
+    padding:0.8rem;
+    display: block;
+    width:100%;
+    color:#666;
+}
+
+.form textarea {
+    height:8rem;
+}
+
+
+.form .submit-btn {
+    font-family: sans-serif;
+    padding:1rem 2rem;
+    background: rgb(44, 142, 180);
+    border:0;
+    border-radius:0.2rem;
+    color:#fff;
+    font-size:1.1rem;
+    font-weight: bold;
+    transition: 0.3s background-color;
+}
+
+.form .submit-btn:hover {
+    background: rgb(53, 98, 182);
+}
+
+
+/* footer */
 
 footer{
     width: 100vw;
     height: 20vh;
     background-color: #211D1C;
-}
-
-@font-face{
-    font-family: wow;
-    src: url(font/varsity_regular.ttf);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
