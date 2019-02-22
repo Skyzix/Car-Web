@@ -181,7 +181,7 @@ td:nth-child(1){
 }
 .galeria > img{
     width: 24vw;
-    height: 26vh;
+    height: 27vh;
 }
 
 .galeria > img:hover{
@@ -277,9 +277,10 @@ label{
 
 footer{
     width: 100vw;
-    height: 20vh;
+    height: 15vh;
     background-color: #211D1C;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family:sans-serif;
 }
